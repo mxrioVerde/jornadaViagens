@@ -1,5 +1,18 @@
+:root {
+    --background-primary: #FFFFFF;
+    --background-secondary: #F5F5F5;
+    --background-tertiary: #02091c;
+
+    --button-primary: #8F0101;
+    --button-secondary: #B81515;
+
+    --text-primary: #222222;
+    --text-primary: #FFFFFF;
+}
+
 body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
