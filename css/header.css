@@ -1,3 +1,22 @@
 header {
-    background-color: black;
+    background-color: var(--background-tertiary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 38px 48px;
+}
+
+.home {
+    display: inline-block;
+    width: 68px;
+    height: 64px;
+}
+
+nav {
+    display: none;
+}
+
+.navigation-menu {
+    margin-top: 23px;
 }
