@@ -41,5 +41,33 @@ nav {
 
 .menu-link-list li a{
     color: var(--text-secondary);
+    font-size: 24px;
+    font-weight: var(--menu-text-weight);
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px){
+    .navigation-menu {
+        margin-top: 0;
+    }
+
+    .navigation-menu label {
+        display: none;
+    }
+
+    .navigation-menu nav {
+        display: block;
+    }
+
+    .navigation-menu li {
+        margin-top: 0;
+    }
+    
+    .navigation-menu ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        width: 467px;
+    }
 }
