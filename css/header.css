@@ -98,6 +98,10 @@ nav {
     color: var(--button-primary);
   }
 
+  .navigation-menu a:visited {
+    text-decoration: underline;
+  }
+
   .img-desktop {
     display: block;
   }
