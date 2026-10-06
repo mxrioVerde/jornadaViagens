@@ -1,7 +1,116 @@
 .destinations .item header {
-    display: block;
-    background-color: transparent;
-    position: static;
-    padding: 0;
-    margin-bottom: 24px;
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+}
+
+.item h4 {
+  margin: 24px 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.item p {
+  width: 312px;
+  height: 220px;
+  text-align: justify;
+  margin: 0 24px;
+  font-size: 20px;
+}
+
+.img-item.tokyo {
+  background: url(../img/japao-card.jpg) no-repeat;
+  background-size: cover;
+  width: 312px;
+  height: 360px;
+}
+
+.img-item.osaka {
+  background: url(../img/osaka-card.jpg) no-repeat;
+  background-size: cover;
+  width: 312px;
+  height: 360px;
+}
+
+.dest-button {
+  color: var(--text-secondary);
+  width: 312px;
+  height: 64px;
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  background-color: var(--button-secondary);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-item.tokyo {
+    width: 648px;
+    height: 452px;
+  }
+
+  .img-item.osaka {
+    width: 648px;
+    height: 452px;
+  }
+
+  .foofooter{
+    width: 648px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .dest-button {
+    width: 312px;
+    height: 64px;
+  }
+
+  .item p {
+    width: 648px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destination-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .img-item.tokyo {
+    width: 588px;
+    height: 452px;
+  }
+
+  .img-item.osaka {
+    width: 588px;
+    height: 452px;
+  }
+
+  .foofooter{
+    width: 588px;
+  }
+
+  .dest-button {
+    width: 312px;
+    height: 64px;
+  }
+
+  .item p {
+    width: 588px;
+    height: 120px;
+  }
 }
