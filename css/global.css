@@ -18,10 +18,8 @@
 
   --title-weight: 700;
   --text-weight: 400;
-  --menu-test-weight: 500;
+  --menu-weight: 500;
 }
-
-
 
 body,
 img,
@@ -40,5 +38,27 @@ button {
 }
 
 body {
-    font-family: "Montserrat";
+  font-family: "Montserrat";
+  color: var(--text-primary);
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  border: none;
+  background-color: var(--button-secondary);
+  margin: 16px auto 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
