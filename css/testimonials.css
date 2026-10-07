@@ -1,0 +1,29 @@
+.testimonials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0 24px;
+}
+
+.testimonials-container footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 48px;
+  align-items: center;
+}
+
+.depoimento-card p {
+  margin-bottom: 8px;
+}
+
+.nome-do-cara-que-postou-o-depoimento {
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  margin: 0;
+}
+
+.star {
+  color: var(--button-secondary);
+  font-size: 32px;
+}
