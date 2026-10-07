@@ -7,3 +7,59 @@
 .text-conteudo {
     width: 312px;
 }
+
+.bag {
+    background: url(../img/clothes-card.png) no-repeat;
+    background-size: cover;
+}
+
+.passport {
+    background: url(../img/passport-card.png) no-repeat;
+    background-size: cover;
+    
+}
+
+.people {
+    background: url(../img/bridge-card.png) no-repeat;
+    background-size: cover;
+    grid-column: span 2;
+}
+
+.img-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "bag passport" 
+    "bridge bridge";
+    gap: 24px;
+    margin-top: 24px;
+    width: 312px;
+    height: 460px;
+}
+
+@media screen and (min-width: 768px) {
+    .text-conteudo {
+        width: 648px;
+    }
+
+    .img-content {
+        width: 648px;
+        height: 460px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .payments {
+
+    }
+    
+    .text-conteudo {
+        width: 648px;
+    }
+
+    .img-content {
+        width: 648px;
+        height: 460px;
+    }
+}

@@ -1,4 +1,7 @@
 .destinations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 88px;
 }
 
@@ -17,9 +20,6 @@
 }
 
 .item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 40px;
 }
 
@@ -27,7 +27,6 @@
   width: 312px;
   height: 220px;
   text-align: justify;
-  margin: 0 24px;
   font-size: 20px;
 }
 
@@ -88,11 +87,12 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .destination-item {
+@media screen and (min-width: 1440px) {
+   .destination-item {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 24px;
   }
   .img-item.tokyo {
     width: 588px;

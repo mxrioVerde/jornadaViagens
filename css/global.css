@@ -57,6 +57,7 @@ body {
   margin: 16px auto 32px;
 }
 .content-title {
+  margin-top: 0;
   font-size: 28px;
   font-weight: var(--title-weight);
 }
